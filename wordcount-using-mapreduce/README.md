@@ -1,10 +1,12 @@
 WordCount using Hadoop MapReduce
-** Project Overview**
+
+**** Project Overview****
 
 This project implements the classic WordCount example using Hadoop MapReduce.
 The goal is to read a text file from HDFS, process it with a custom Mapper and Reducer, and output the frequency of each word back into HDFS.
 
 Approach and Implementation
+
 Mapper
 
 Input: A line of text
@@ -108,21 +110,37 @@ Solution: Realized docker exec must be run from the host; once inside the contai
 
 **Input and Obtained Output**
 Input (sample input.txt)
+
 I am Vasudha Carolina
+
 Vasudha is studying at UNCC
+
 UNCC is located in Charlotte
+
 Charlotte is located in North Carolina
 
 **Output (part-r-00000)**
+
 Vasudha	2
+
 Carolina	2
+
 Charlotte	2
+
 located	2
+
 UNCC	2
+
 North	1
+
 dataset	1
+
 your	1
+
 studying	1
+
 own	1
+
 input	1
+
 Create	1
